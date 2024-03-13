@@ -1,7 +1,9 @@
-  
 def bmi_cal(mass,height):
+  
+ #centimeters convert to meters
     height_in_meter = height/100
 
+  #BMI Calculation
     bmi = mass/(height_in_meter**2)
     
     if bmi > 0:
