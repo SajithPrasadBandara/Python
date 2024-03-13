@@ -1,6 +1,6 @@
 def bmi_cal(mass,height):
   
- #centimeters convert to meters
+  #centimeters convert to meters
     height_in_meter = height/100
 
   #BMI Calculation
@@ -19,9 +19,10 @@ def bmi_cal(mass,height):
     else:
         print("Enter valid inputs.")
         
-        
+#Get inputs from user       
 mass = int(input("Enter your weight(kg) : "))
 height = int(input("Enter your height(cm) : "))
 
+#Calculation
 bmi_cal(mass,height)
  
